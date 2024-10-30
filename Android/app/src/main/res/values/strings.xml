@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Báo mới</string>
+    //hint
+    <string name="hint_username">Tài khoản...</string>
+    <string name="hint_password">Mật khẩu...</string>
+    <string name="hint_fullname">Tên của bạn</string>
+    <string name="hint_username_register">Tên tài khoản</string>
+    <string name="hint_password_register">Nhập mật khẩu...</string>
+    <string name="hint_confirmpassword_register">Nhập lại mật khẩu...</string>
+    <string name="hint_searchview">Search...</string>
+
+    // button
+    <string name="button_login">Đăng nhập</string>
+    <string name="button_register">Đăng ký</string>
+    <string name="button_add">Add</string>
+    <string name="button_ok">Oke</string>
+    <string name="button_cancel">Cancel</string>
+    //textview
+    <string name="textview_login">Login</string>
+    <string name="textview_register">sign up</string>
+    <string name="textview_asforanaccount">Chưa có tài khoản</string>
+    <string name="textview_duration">Duration</string>
+    <string name="textview_des">Description</string>
+
+    //text error
+    <string name="error_username">Username  cannot be blank</string>
+
+    <string name="signin_des">Đăng nhập tài khoản của bạn.</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="signup_des">Tạo tài khoản</string>
+    <string name="label_status">Trạng thái</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/all_news"
+        android:icon="@drawable/ic_next"
+        android:title="Tất cả"
+        />
+    <item
+        android:id="@+id/least_news"
+        android:icon="@drawable/ic_history"
+        android:title="Báo mới" />
+    <item
+        android:id="@+id/favorite_news"
+        android:icon="@drawable/ic_history"
+        android:title="Yêu thích" />
+</menu>
