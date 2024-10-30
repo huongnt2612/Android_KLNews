@@ -30,6 +30,7 @@ public class RestData<T> {
         this.userMessage = userMessage;
         this.data = data;
     }
+// day la message
     public static RestData<?> error(String userMessage , String devMessage) {
         return new RestData<>(RestStatus.ERROR, userMessage, devMessage, null);
     }
