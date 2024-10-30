@@ -4,6 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 public class VsResponseUtil {
+// day la message
     public static ResponseEntity<RestData<?>> ok(Object data) {
         return ok(HttpStatus.OK, data);
     }
