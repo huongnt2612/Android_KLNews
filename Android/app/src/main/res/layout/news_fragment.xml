@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragment.CategoryFragment">
+
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_news"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_search"
+            app:closeIcon="@null"
+            app:layout_constraintEnd_toStartOf="@+id/popup_menu"
+            app:layout_constraintStart_toStartOf="@+id/rcv_news"
+            app:layout_constraintTop_toTopOf="parent"
+            app:queryHint="@string/hint_searchview"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/popup_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/ic_menu"
+            android:text="Tất cả"
+            app:layout_constraintBottom_toBottomOf="@+id/search_news"
+            app:layout_constraintEnd_toEndOf="@+id/rcv_news"
+            app:layout_constraintTop_toTopOf="@+id/search_news" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popup_menu"
+            tools:listitem="@layout/item_news" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
